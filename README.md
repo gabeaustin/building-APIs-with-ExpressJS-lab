@@ -39,5 +39,5 @@
 <br/>
 <br/>
 
-:octocat:  # Building APIs with ExpressJS Lab  :octocat:<br/>
+:octocat:  Building APIs with ExpressJS Lab  :octocat:<br/>
 :nerd_face:  created by: Gabe A.  :nerd_face:
