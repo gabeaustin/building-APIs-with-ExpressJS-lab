@@ -1,4 +1,5 @@
 const express = require("express");
+const chirpStore = require("../chirpstore");
 let router = express.Router();
 
 router.get("/", function(req, res) {
@@ -7,9 +8,7 @@ router.get("/", function(req, res) {
 });
 
 router.post("/", function(req, res) {
-    // res.send({
-    //     what key value pairs do I need to send
-    // });
+    res.sendStatus(200);
     res.json(id);
 });
 
