@@ -1,9 +1,9 @@
 const express = require("express");
-const chirpRouter = require("../chirps");
+const chirpsRouter = require("./chirps");
 
 let router = express.Router();
 
 // middleware
-app.use("/chirps", chirpsRouter);
+router.use("/chirps", chirpsRouter);
 
 module.exports = router;
