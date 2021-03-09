@@ -15,8 +15,8 @@ router.get("/:id?", function(req, res) {
 
 router.post("/", function(req, res) {
     res.send({ type: "POST" }); // used as a test to see if working
-    res.sendStatus(200);
-    res.json(id);
+    // res.sendStatus(200);
+    // res.json(id);
 });
 
 router.put("/:id", function(req, res) {
